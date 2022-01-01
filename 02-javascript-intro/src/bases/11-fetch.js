@@ -1,4 +1,4 @@
-const apiKey = "PdNh581631LUxWXsNLj1m9qXTCKQuDhE";
+const apiKey = "xxxxxxxxxxxxxxxxxxxxxxxx";
 
 const request = fetch(`https://api.giphy.com/v1/gifs/random?api_key=${apiKey}`);
 /* request.then((resp) => {
