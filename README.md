@@ -10,7 +10,7 @@ First introuction to react.
 
 Refresh of javascript, aswell as introduction to react projects.
 
-## 03-counter-app added
+## 03-counter-app
 
 Simple counter app. It displays 3 buttons that either increase, reset or decrease the value shown.
 
