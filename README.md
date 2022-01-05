@@ -16,3 +16,8 @@ Simple counter app. It displays 3 buttons that either increase, reset or decreas
 
 In this lesson I've learnt about components, properties, hooks (useState)
 and event handeling (click).
+
+## 04-testing
+
+In this lecture I've learnt the basics of how to use jest to create automated tests,
+and enzyme to test components.
