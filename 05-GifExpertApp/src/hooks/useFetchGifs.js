@@ -25,7 +25,7 @@ export const useFetchGifs = (category) =>{
                     loading:false,
                 });
             });
-    }, []);
+    }, [category]);
 
 
     // setTimeout(() =>{
