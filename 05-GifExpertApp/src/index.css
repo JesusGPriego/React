@@ -1,34 +1,62 @@
+
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
 * {
   font-family: Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
 }
 
 body {
-  padding: 60px;
+  background-color: #383737;
+  color:aquamarine;
+  padding: 1em;
 }
 
 input {
   color: grey;
   font-size: 1.1rem;
-  width: 100%;
+  width: 50%;
+  margin: 0 auto;
+  display:block;
 }
 .card-grid {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
+  margin: 0 auto;
 }
 .card {
   align-content: center;
+  background-color: #d1970a;
   border: 1px solid grey;
   border-radius: 6px;
-  overflow: hidden;
+  color: black;
+  height: 15em;
+  width:25%;
   margin-bottom: 10px;
   margin-right: 10px;
+  overflow: hidden;
+  min-height:280px;
+  min-width:300px;
+  max-width:400px;
+  max-height: 350px;
 }
 .card figcaption {
+  font-size: 1em;
   padding: 5px;
   text-align: center;
 }
 
 .card img {
-  max-height: 170px;
+  width:  100%;
+  height:87%;
+  object-fit: cover;
 }

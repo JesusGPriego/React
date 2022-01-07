@@ -16,3 +16,9 @@ One for each image received on the hook update.
 The hook retrieves info from API by calling a helper (getGifs), which is the one that uses http calls to receive the data.
 
 In short, every time the user adds a new category, it is added to the list, creating a new grid and 10 images matching the topic of the category.
+
+# Tests
+
+Test has been done by using enzyme and react-hook-test libraries, along with jest.
+
+The test done prove that the application works as intended.

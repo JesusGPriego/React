@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifGrid Component should return a GifGrid that match the snapshot. 1`] = `
+<Fragment>
+  <p>
+    Cargando...
+  </p>
+  <h3>
+    One Punch Man
+  </h3>
+  <div
+    className="card-grid animate__animated animate__fadeIn"
+  />
+</Fragment>
+`;
+
+exports[`Testing GifGrid Component should show item when images are loaded with "useFetchGifs" 1`] = `
+<Fragment>
+  <h3>
+    One Punch Man
+  </h3>
+  <div
+    className="card-grid animate__animated animate__fadeIn"
+  >
+    <GifGridItem
+      id="abc"
+      key="abc"
+      title="whatever title"
+      url="https://myimage.jpg"
+    />
+  </div>
+</Fragment>
+`;

@@ -10,9 +10,9 @@ import { GifGrid } from "./components/GifGrid";
  * an AddCategory component and undefined number of GifGrid.
  * The first is an input text and the others are 'galleries' of images.
  */
-export const GifExpertApp = (props) => {
+export const GifExpertApp = ({defaultCategories = []}) => {
   //useState hook. for every new category, a new Grid item will be created
-  const [categories, setCategories] = useState(["One Punch"]);
+  const [categories, setCategories] = useState(defaultCategories);
 
  
 
