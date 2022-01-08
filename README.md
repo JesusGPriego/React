@@ -30,3 +30,16 @@ really low coding.
 This app lets the user search categories (img categories). When he hits enter, 10 images matching the user input will be added to the web.
 
 By developing this project, I've learnt the basics about hooks, custom hooks, helpers, and components comunication.
+
+## 06-Hook-app
+
+In this lesson I've learnt about the followin react hooks:
+
+    * useState
+    * useEffect
+    * useRef
+    * useLayout
+    * useMemo
+    * useCallback
+
+The last folder (07-tarea-memo) is an exercise where useMemo and useCallback allow the up to work consuming less resources, since the components are rendered just once.
