@@ -1,0 +1,27 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    padding:40px;
+
+}
+
+p{
+    cursor:pointer;
+    margin:0;
+}
+
+
+.btn-block{
+    display:block;
+    width:100%;
+}
+
+.complete{
+    text-decoration: line-through;
+}
+
+.list-group-item{
+    align-items:center;
+    display:flex;
+    justify-content: space-between;
+}
+
