@@ -43,3 +43,16 @@ In this lesson I've learnt about the followin react hooks:
     * useCallback
 
 The last folder (07-tarea-memo) is an exercise where useMemo and useCallback allow the up to work consuming less resources, since the components are rendered just once.
+
+
+## TODOD APP 
+
+This is a simple todo app, that allow the user to manage a todo list.
+
+In this app, has been used the following React concepts:
+
+    * useEffect
+    * useReducer
+    * useForm (custom hook)
+    * dispatchers.
+
