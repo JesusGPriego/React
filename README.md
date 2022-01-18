@@ -56,3 +56,12 @@ In this app, has been used the following React concepts:
     * useForm (custom hook)
     * dispatchers.
 
+
+## 08-usercontext-app
+
+For this proyect I've learned about contexts in react. 
+As the teacher said, this is a good option to pass info between components 
+for small projects, simple and effective.
+
+In the nexts lesson I'll learn about Redux, which is the actual way to pass
+info between components in bigger projects.
