@@ -65,3 +65,8 @@ for small projects, simple and effective.
 
 In the nexts lesson I'll learn about Redux, which is the actual way to pass
 info between components in bigger projects.
+
+## xx-unitarytests
+
+In this lesson I've tested some of the componentes developed in the past 2 lesson,
+by using jest, react testing library and enzyme library.
